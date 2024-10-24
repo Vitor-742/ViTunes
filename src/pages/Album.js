@@ -61,12 +61,16 @@ class Album extends React.Component {
         {loading ? (
           <Loading />
         ) : (
-          <div className='alreadySelected'>
+          <div className="alreadySelected">
             <h2 data-testid="artist-name">{dataAlbum[0].artistName}</h2>
             <h3 data-testid="album-name">
               {`${dataAlbum[0].collectionName} - ${dataAlbum[0].artistName}`}
             </h3>
-            <img className="imageAlreadySelected" src={ dataAlbum[0].artworkUrl100 } alt={ dataAlbum[0].collectionId } />
+            <img
+              className="imageAlreadySelected"
+              src={ dataAlbum[0].artworkUrl100 }
+              alt={ dataAlbum[0].collectionId }
+            />
           </div>
         )}
         {loadingSongs

@@ -31,7 +31,7 @@ class Login extends React.Component {
             type="text"
             data-testid="login-name-input"
             onChange={ this.loginNameInput }
-            placeholder="Seu nome"
+            placeholder="Your name"
           />
           <button
             type="button"
@@ -47,7 +47,7 @@ class Login extends React.Component {
               });
             } }
           >
-            Entrar
+            Log in
           </button>
           {redirect && <Redirect to="/search" />}
           {loading && <Loading />}

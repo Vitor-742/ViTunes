@@ -19,7 +19,7 @@ class MusicCard extends React.Component {
     } = this.props;
     const { loading } = this.state;
     return (
-      <div className='albumCard'>
+      <div className="albumCard">
         <p>{ trackName }</p>
         <audio data-testid="audio-component" src={ previewUrl } controls>
           <track kind="captions" />

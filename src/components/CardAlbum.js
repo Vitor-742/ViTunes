@@ -8,13 +8,13 @@ class CardAlbum extends React.Component {
     const { artistName, artworkUrl100, collectionName, collectionId } = album;
     return (
       <Link
-      className="fatherAlbumCard"
+        className="fatherAlbumCard"
         to={ `album/${collectionId}` }
         data-testid={ `link-to-album-${collectionId}` }
       >
         <div
-        className='albumCard'
-        key={ collectionId }
+          className="albumCard"
+          key={ collectionId }
         >
           <img src={ artworkUrl100 } alt={ collectionName } />
           <h3>{ collectionName }</h3>

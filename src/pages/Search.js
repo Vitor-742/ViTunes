@@ -73,7 +73,7 @@ class Search extends React.Component {
           {albums.length !== 0 && (
             <div>
               <p
-              className="result"
+                className="result"
               >
                 Search results:
                 {` ${artistName}`}
