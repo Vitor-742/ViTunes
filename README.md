@@ -1,4 +1,4 @@
-WELCOME TO VITUNES
+# WELCOME TO VITUNES
 
 This is a project developed by Vitor Campos.
 Project developed to showcase basic skills with React
