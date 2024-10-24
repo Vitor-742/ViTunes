@@ -7,6 +7,9 @@ This project was developed to be a music streaming platform, where you can searc
 
 To run this app:
 
+```bash
+git clone https://github.com/Vitor-742/ViTunes.git
+
 npm install
 
 npm start
