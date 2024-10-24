@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-image: linear-gradient(to top, rgba(120, 27, 163, 0.856), rgb(71, 11, 98));
+  margin: 0;
+  display: flex;
+  padding: 35px;
+  justify-content: space-around;
+}
+
+h1 {
+  color: aliceblue;
+  margin: 0;
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+header a, header p {
+  color: aliceblue;
+  align-items: center;
+  margin: 16px 0;
+  margin-left: 30px;
+}
+
+header p {
+  margin-right: 200px;
+}
+
+.header-options {
+  display: flex;
+}
+
+.div-button-search {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #3498db;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  outline: none;
+}
+
+button {
+  background-color: rgba(120, 27, 163, 0.856);
+  color: white;
+  padding: 12px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(101, 24, 137, 0.856);
+  box-shadow: 0 0 8px rgba(41, 128, 185, 0.6);
+}
+
+button:active {
+  background-color: rgba(78, 19, 106, 0.856);
+}
+
+button:focus {
+  outline: none; 
+}
+
+.result {
+  text-align: center;
+  color: rgba(78, 19, 106, 0.856); 
+  font-weight: bold;
+}
+
+.albumCard {
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px; 
+  margin: 15px; 
+  max-width: 300px;
+  transition: transform 0.3s;
+}
+
+.fatherAlbumCard {
+  display: inline-block;
+}
+
+.alreadySelected {
+  background-color: rgba(108, 45, 137, 0.856);; /* Cor de fundo do header */
+  border-radius: 10px; /* Bordas arredondadas */
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
+  padding: 15px; /* Espaçamento interno */
+  margin: 15px; /* Espaçamento externo */
+}
+
+.imageAlreadySelected {
+  width: 200px; /* Largura fixa para a imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 5px; /* Bordas arredondadas na imagem */
+  margin-right: 15px; /* Espaço entre a imagem e o texto */
+}
